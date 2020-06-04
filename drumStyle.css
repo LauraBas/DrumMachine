@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#drum-machine {
+    display: grid;
+    background-color: lightgrey;
+    padding-top: 5px;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    row-gap: 2px;
+    column-gap: 2px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 60px 100px 100px 100px;
+    grid-template-areas: "disp disp disp" "top top top" "mid mid mid" "bottom bottom bottom";
+}
+
+#title{
+    text-align: center;
+    font-family: fantasy;
+    font-size:45px;
+    margin: 0px;
+}
+#disp {
+    background-color: black;
+    border: solid 1px white;
+    grid-column: 1/4;
+}
+
+#Heater-1 {
+    background-color: darkkhaki;
+
+}
+
+#Heater-2 {
+    background-color: indianred;
+
+}
+
+#Heater-3 {
+    background-color: cadetblue;
+
+}
+
+#Heater-4 {
+    background-color: darkseagreen;
+
+}
+
+#Clap {
+    background-color: darkolivegreen;
+
+}
+
+#Closed-HH {
+    background-color: darkslateblue;
+
+}
+
+#Open-HH {
+    background-color: darksalmon;
+
+}
+
+#Kick {
+    background-color: lightgreen;
+
+}
+
+#Kick-n\'Hat {
+    background-color: lightseagreen;
+
+}
+
+#all {
+    display: grid;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: lightgrey;
+     box-shadow: 6px 4px gray;
+}
+
+#chau {
+    font-size: 15px;
+    font-family: cursive;
+    margin: 90px;
+}
