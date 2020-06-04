@@ -30,8 +30,10 @@ body {
     background-color: black;
     border: solid 1px white;
     grid-column: 1/4;
-    color: lightgrey;
+    color: darkturquoise;
     font-family: sans-serif;
+    text-align: center;
+    font-weight: 100;
 ;
 
 
