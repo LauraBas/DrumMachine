@@ -18,6 +18,7 @@ body {
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 60px 100px 100px 100px;
     grid-template-areas: "disp disp disp" "top top top" "mid mid mid" "bottom bottom bottom";
+    padding-bottom: 5rem;
 }
 
 #title{
